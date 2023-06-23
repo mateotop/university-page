@@ -1,32 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>University</title>
-    <style>
-      body {
-            font-family: 'Orbitron', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-            color: #333;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-      h1 {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 40px;
-        }
-    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>University projects</h1>
+    <!-- Видеофон -->
+    <!-- <div class="video-background">
+        <video autoplay loop muted>
+            <source src="fpv.mp4" type="video/mp4">
+        </video>
+    </div> -->
+
+    <!-- Полупрозрачный фон -->
+    <!-- <div class="overlay"></div> -->
+
+
+    <!-- Остальной контент страницы -->
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-sun"></i>
+    </div>
+    <h1>University Projects</h1>
+        <!-- <a href="#" target="_blank" class="post">
+            <h2>Reading Diary</h2>
+            <img src="img/black_sq_200.jpg" alt="">
+            <p class="description"></p>
+        </a> -->
+        <a href="https://www.mateofpv.ru/secrets/univer/a.html" target="_blank" class="post">
+            <h2>Indonesia Analysis - 2022</h2>
+            <img src="img/black_sq_200.jpg" alt="">
+            <p class="description">Dive into an in-depth analysis of Indonesia's socio-economic landscape in 2022.</p>
+        </a>
+        <a href="https://docs.google.com/presentation/d/1AqgjUcmVkvLw_xKwhbM4O3zejW_Qb05ZJkw0zb-HsMM/edit?usp=sharing" target="_blank" class="post">
+            <h2>Diploma - pdf</h2>
+            <img src="img/black_sq_200.jpg" alt="">
+            <p class="description">Presentation for diploma</p>
+        </a>
     
+        <script src="script.js"></script>
 </body>
+
 </html>
